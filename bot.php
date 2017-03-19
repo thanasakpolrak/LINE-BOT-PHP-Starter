@@ -19,7 +19,19 @@ if (!is_null($events['events'])) {
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
-				'text' => $text
+				'text' => 'PTT PUBLIC COMPANY LIMITED
+
+Energies & Utilities
+
+Margin Grade: A (50%)
+
+Last:   -396.00
+Change:   -1.00
+%Change:    -0.25
+Prior:    397.00
+Open:   398.00
+High:   399.00
+Low:    396.00'
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
